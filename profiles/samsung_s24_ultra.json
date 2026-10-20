@@ -1,0 +1,39 @@
+{
+  "clone_id": 1,
+  "package_name": "com.target.application",
+  "profile_name": "Samsung Galaxy S24 Ultra",
+  "android_id": "4b9e2a1f0c8d7e63",
+  "advertising_id": "8e3c1d2a-4b5f-6a7c-8d9e-0f1a2b3c4d5e",
+  "widevine_device_id": "7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
+  "build": {
+    "manufacturer": "samsung",
+    "brand": "samsung",
+    "model": "SM-S928B",
+    "device": "e3q",
+    "product": "e3qxxx",
+    "board": "pineapple",
+    "hardware": "qcom",
+    "fingerprint": "samsung/e3qxxx/e3q:14/UP1A.231005.007/S928BXXU1AXB5:user/release-keys",
+    "bootloader": "S928BXXU1AXB5",
+    "radio_version": "S928BXXU1AXB5"
+  },
+  "telephony": {
+    "imei": "358249110293841",
+    "imsi": "310410123456789",
+    "sim_serial": "89014103211118510720",
+    "network_operator": "310410",
+    "sim_operator": "310410",
+    "carrier_name": "AT&T"
+  },
+  "network": {
+    "mac_address": "8c:f5:a3:19:4e:22",
+    "bssid": "24:de:c6:81:92:4a",
+    "ssid": "Home-Network-5G"
+  },
+  "proxy": {
+    "enabled": false,
+    "type": "socks5",
+    "host": "127.0.0.1",
+    "port": 10808
+  }
+}

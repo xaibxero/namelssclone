@@ -1,0 +1,39 @@
+{
+  "clone_id": 2,
+  "package_name": "com.target.application",
+  "profile_name": "Google Pixel 8 Pro",
+  "android_id": "9a1d3f5e7b2c4a68",
+  "advertising_id": "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+  "widevine_device_id": "3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f",
+  "build": {
+    "manufacturer": "Google",
+    "brand": "google",
+    "model": "Pixel 8 Pro",
+    "device": "husky",
+    "product": "husky",
+    "board": "shiba",
+    "hardware": "zuma",
+    "fingerprint": "google/husky/husky:14/UD1A.230803.041/10808477:user/release-keys",
+    "bootloader": "husky-1.0-9856321",
+    "radio_version": "g5300g-230714-230807-B-10613271"
+  },
+  "telephony": {
+    "imei": "352948110948271",
+    "imsi": "310260987654321",
+    "sim_serial": "89012604211119520831",
+    "network_operator": "310260",
+    "sim_operator": "310260",
+    "carrier_name": "T-Mobile"
+  },
+  "network": {
+    "mac_address": "4a:12:b3:8c:5d:90",
+    "bssid": "38:ff:36:12:7c:81",
+    "ssid": "Office-Guest-Wi-Fi"
+  },
+  "proxy": {
+    "enabled": false,
+    "type": "socks5",
+    "host": "127.0.0.1",
+    "port": 10809
+  }
+}

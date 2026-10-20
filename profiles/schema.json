@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DeviceProfile",
+  "type": "object",
+  "properties": {
+    "clone_id": { "type": "integer" },
+    "package_name": { "type": "string" },
+    "profile_name": { "type": "string" },
+    "android_id": { "type": "string", "pattern": "^[0-9a-fA-F]{16}$" },
+    "advertising_id": { "type": "string" },
+    "widevine_device_id": { "type": "string" },
+    "build": {
+      "type": "object",
+      "properties": {
+        "manufacturer": { "type": "string" },
+        "brand": { "type": "string" },
+        "model": { "type": "string" },
+        "device": { "type": "string" },
+        "product": { "type": "string" },
+        "board": { "type": "string" },
+        "hardware": { "type": "string" },
+        "fingerprint": { "type": "string" },
+        "bootloader": { "type": "string" },
+        "radio_version": { "type": "string" }
+      },
+      "required": ["manufacturer", "model", "fingerprint"]
+    },
+    "telephony": {
+      "type": "object",
+      "properties": {
+        "imei": { "type": "string" },
+        "imsi": { "type": "string" },
+        "sim_serial": { "type": "string" },
+        "network_operator": { "type": "string" },
+        "sim_operator": { "type": "string" },
+        "carrier_name": { "type": "string" }
+      }
+    },
+    "network": {
+      "type": "object",
+      "properties": {
+        "mac_address": { "type": "string" },
+        "bssid": { "type": "string" },
+        "ssid": { "type": "string" }
+      }
+    },
+    "proxy": {
+      "type": "object",
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "type": { "type": "string", "enum": ["socks5", "http"] },
+        "host": { "type": "string" },
+        "port": { "type": "integer" }
+      }
+    }
+  },
+  "required": ["clone_id", "package_name", "android_id", "build"]
+}

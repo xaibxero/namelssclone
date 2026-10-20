@@ -1,0 +1,6 @@
+id=namelssclone_zygisk
+name=NamelessClone Zygisk Engine
+version=v1.0.0
+versionCode=100
+author=NamelessClone Team
+description=Native Zygote injection and mount-namespace virtualization module for per-clone anti-fingerprinting.
