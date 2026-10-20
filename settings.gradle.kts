@@ -13,5 +13,6 @@ dependencyResolutionManagement {
         maven { url = uri("https://jitpack.io") }
     }
 }
+
 rootProject.name = "namelssclone"
 include(":app")
