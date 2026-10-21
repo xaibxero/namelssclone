@@ -16,8 +16,8 @@ static std::unordered_map<std::string, std::string> spoofed_props = {
     {"ro.build.fingerprint", "samsung/e3qxxx/e3q:14/UP1A.231005.007/S928BXXU1AXB5:user/release-keys"}
 };
 
-// Pointer to original __system_property_get
-static int (*orig_system_property_get)(const char* name, char* value) = nullptr;
+// Pointer to original __system_property_get (external linkage for main.cpp)
+int (*orig_system_property_get)(const char* name, char* value) = nullptr;
 
 // Hooked replacement function
 int hooked_system_property_get(const char* name, char* value) {
